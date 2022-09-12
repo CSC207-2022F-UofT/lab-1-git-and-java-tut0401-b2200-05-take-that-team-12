@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -40,6 +42,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String nittoorv(){
+        return printLabMessage("Hello", "Vishnu Nittoor", true,
+                "Welcome to CSC207!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +65,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        String output = nittoorv();
+        System.out.println(output);
 
 
     }
