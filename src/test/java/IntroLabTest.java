@@ -25,6 +25,12 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test(timeout = 10000)
+    public void testDengYu7() {
+        String expected = "Hello! My name is Jason Deng! I like cats more than dogs! Welcome to 207!";
+        String actual = IntroLab.dengYu7();
+        assertEquals(expected, actual);
+    }
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
